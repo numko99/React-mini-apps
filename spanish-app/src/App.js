@@ -8,7 +8,7 @@ class App extends Component {
       <BrowserRouter>
       <div>
         <Layout><Main/></Layout>
-    
+    {/* koment */}
       </div>
       </BrowserRouter>
     );
