@@ -1,0 +1,88 @@
+.FullPost{
+    
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    border-radius:20px;
+    
+}
+.xButton{
+   
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size:30px;
+    cursor:pointer;
+    width: max-content;
+}
+.xButton:hover{
+    color: gray;
+}
+   .FullPost h2{
+    font-size: 25px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 40px;
+       
+    }
+    .FullPost h1{
+        font-size: 30px;
+        text-align: center;
+        width: 80%;
+        margin : auto;
+        margin-bottom: 40px;
+        
+    }
+    .FullPost h3{
+        text-align: center;
+        width: 80%;
+        margin : auto;
+    }
+.Button{
+    padding:10px;
+    width:100px;
+    border:none;
+    cursor:pointer;
+    background-color: rgb(102, 97, 97);
+    color: white;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.Button:hover{
+    color: black;
+    background-color: rgb(184, 173, 173);
+}
+.Middle{
+    height: 200px;
+    
+}
+.TopSkrol{
+    position: fixed;
+    top: 0px;
+      width: 100%;
+      z-index: 100;
+}
+.MiddleSkrol{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+@media(min-width : 500px)
+{
+    .FullPost h2{
+        margin-bottom: 100px;
+    }
+    .FullPost h1{
+        margin-bottom: 100px;
+    }
+    .MiddleSkrol{
+        position: fixed;
+        top: 0px;
+        width: 50%;
+    }
+    .TopSkrol{
+        position: static;
+        width: 100%;
+  }
+}

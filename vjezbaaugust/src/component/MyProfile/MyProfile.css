@@ -1,0 +1,8 @@
+.Divi{
+    display: flex;
+    flex-flow:  row wrap;
+    margin:auto;
+    
+    justify-content: center;
+    
+}

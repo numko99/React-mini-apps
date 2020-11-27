@@ -1,0 +1,37 @@
+
+
+@media(min-width:500px){
+    .Divi{
+        width: 100%;
+        display: flex;
+        flex-flow:  row wrap; 
+        justify-content: center;
+    }
+
+    .Input{
+        margin: auto;
+    }
+
+    .search{
+        position: absolute;
+        z-index: 100;
+        right: 20px;
+        top: 25px;
+    }
+    .wrap{
+    
+        display: flex;
+        flex-flow: row;
+       }
+    
+    
+}
+@media(max-width:500px){
+.search{
+    position: absolute;
+    z-index: 90;
+    left: 23%;
+    top: 7%;
+}
+}
+ 

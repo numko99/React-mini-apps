@@ -1,0 +1,39 @@
+.Nav{
+    height:70px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-color: rgb(95, 95, 90);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    
+    
+}
+.Logo{
+    height: 150%;
+    margin-top: 40px;
+  
+}
+.Nav nav{
+    display: none;
+}
+@media(min-width:500px){
+ .Nav{
+    margin-bottom: 50px;
+     
+ }
+ 
+    .Nav nav{
+    
+display: block;
+margin: auto;
+}
+.Logo{
+    margin-top:50px;
+    margin-left: 50px;
+}
+}

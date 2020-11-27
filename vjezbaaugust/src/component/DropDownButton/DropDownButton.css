@@ -1,0 +1,26 @@
+.DropDownButton{
+    /* margin-top: 50px; */
+  display: flex;
+  flex-flow: column;
+  width: 40px;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-top: 40px;
+
+
+}
+.DropDownButton div{
+    background-color: white;
+    width: 90%;
+    height: 3px;
+}
+@media(min-width : 500px)
+{
+    .DropDownButton{
+        display: none;
+    }
+}

@@ -1,0 +1,54 @@
+.Nav{
+    display: flex;
+   width: 100%;
+   box-sizing: border-box;
+   
+}
+.Nav a{
+    color: rgb(119, 112, 112);
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding: 16px 10px;
+}
+.Nav a:hover,
+.Nav a:active,
+.Nav a.active{
+   
+    font-weight: bold;
+    color: rgb(119, 112, 112);
+    
+}
+@media(min-width : 500px)
+{
+    .Nav{
+        margin: 10px;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+        text-align: center;
+        
+    
+       
+    }
+    .Nav a{
+        color: white;
+        height: 100%;
+        border-bottom: 4px solid transparent;
+        padding: 16px 10px;
+       
+    }
+    .Nav a:hover,
+    .Nav a:active,
+    .Nav a.active {
+        font-weight: normal;
+        /* background-color: rgb(172, 171, 167);
+        border-bottom:2px solid rgb(180, 180, 180); */
+        color: rgb(49, 47, 47);
+        /* border-radius: 10%; */
+        font-weight: bold;
+       
+    }
+}

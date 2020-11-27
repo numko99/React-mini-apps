@@ -1,0 +1,33 @@
+.TestButton{
+    width: max-content;
+   margin: auto;
+    margin: 30px;
+    
+    
+}
+.Button{
+    margin : 5px;
+    padding : 10px;
+    width: 100px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.triangleup {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid green;
+    cursor: pointer;
+    margin: auto;
+  }
+
+  .triangle-down {
+    width: 20px;
+    height: 20px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+  }
